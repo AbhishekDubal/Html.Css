@@ -73,6 +73,9 @@ a:visited
 {
     color: bisque;
 }
+u:hover{
+    color: rgb(225, 215, 225);
+}
 
 ul > li
 {
