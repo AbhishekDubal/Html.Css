@@ -1,5 +1,85 @@
 body
 {
-   background: fixed;
-   background-color:brown;
+   
+   background-color:darkslategray;
 }
+h1
+{
+    color: aqua;
+}
+h2
+{/*It'll Override the by-default color and turn into the mentioned color*/
+    color:gold;
+}
+h2:hover    /*it'll change color to this color when hover on it*/
+{
+    color: red;
+}
+h3{
+    color: coral;
+}
+
+#runs_sr_id:hover
+{
+    color: blueviolet;
+}
+.table_head_class
+{
+    color:blueviolet;
+}/*classes can Override the Normal tags but not the ID's*/
+.table_head_class:hover 
+{
+    color: red;
+}/*This is the diff. b/w class and id's-(when you hover on ipl,odi table all those are changing their color.But in the Runs,Sr id's conditions only the word that you're hovering that's the one behaving diff.)*/
+
+#h2_stats_id
+{
+    color: cornflowerblue;
+}
+#runs_sr_id
+{
+    color: deepskyblue;
+}/*ID's will Override the normal tags and also the CLASSES aswell color and turn into the mentioned color*/
+
+.skills_ul_class
+{
+    color: forestgreen;
+}
+#ol_list_id1
+{
+    color: rgb(86, 86, 188);
+}
+#ol_list_id2
+{
+    color: chartreuse;
+}
+a{
+    color: deepskyblue;
+}
+a:hover
+{
+    color: rgb(13, 228, 13);
+}
+a:visited
+{
+    color: red;
+}
+/*Example of ID overriding Classes*/
+#pid
+{
+    color: rgb(97, 136, 97);
+}
+.pclass
+{
+    color: bisque;
+}
+
+ul > li
+{
+    color: honeydew;
+}/*For sub-UL it won't apply, but for UL under OL it'll work*/
+
+/* ul li {
+    color:rgb(240, 236, 237);
+} */
+/* these are not working I guess and there is also ul+li{} it is also not working */
