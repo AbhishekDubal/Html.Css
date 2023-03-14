@@ -3,7 +3,7 @@ body
     /* background-color:rgb(127, 230, 230);  */
     /* background-color:rgba(127, 230, 230,0.4); */
     /*0 to 1 you can set 4th value. 1 in the sense 100%*/
-    background:radial-gradient(rgb(120,1,10),rgba(122,40,20,0));
+    background:radial-gradient(rgb(183, 54, 179),rgba(97, 115, 219, 0));
 }
 #cosmos_img_id
 {
