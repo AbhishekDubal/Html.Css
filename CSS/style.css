@@ -104,7 +104,6 @@ table{
     border-style:outset;
 }
 th{
-    color: ;
    border-style:groove;
 }
 #th_gap_id{
@@ -114,4 +113,4 @@ td{
     color:rgb(219, 198, 218);
     border-style:solid;
 }
-  
+/*We can also call a class by multiple names.Just use other name by givin' space and call it*/
