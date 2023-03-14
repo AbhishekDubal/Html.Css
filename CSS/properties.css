@@ -1,0 +1,49 @@
+body
+{
+    /* background-color:rgb(127, 230, 230);  */
+    background-color:rgba(127, 230, 230,0.4);/*0 to 1 you can set 4th value. 1 in the sense 100%*/
+}
+#cosmos_img_id
+{
+    height: 350px;
+  width: 100%;
+}/*it is the correct thing to do. It'll cover the whole web page int terms of width*/
+#early_cosmos_img_id
+{
+   /* background-size: cover; */
+   height: 420px;
+   border: solid chartreuse 4px;
+}
+
+#gradient1 {
+    background: linear-gradient(to bottom right, #ff9900, #00ccff);
+    /* The above line will create a gradient that goes from the top left (#ff9900) to the bottom right (#00ccff) */
+    width: 100%;
+    height: 200px;
+  }
+  #gradient2 {
+   background: url("/abd_for_css.webp");
+   height: 300px;
+   width: 100%;
+   /* background-size: contain; */
+   background-size: cover;
+   /* background-repeat: no-repeat; */
+  }
+  #gradient3{
+    height: 110px;
+    width: 50%;
+    /* background: linear-gradient(to left, white,blue); */
+    /*white to blue from right to left*/
+    background: linear-gradient(to bottom, red,yellow,green,blue);
+  }
+  #gradient4{
+    height: 210px;
+    width: 40%;
+    background: linear-gradient(to left top, rgb(102,240,20), rgba(201,200,4,0));/*here last value ZERO in a sense WHITE. so that's why it's showing white at left top*/
+  }
+
+  #gradient5{
+    height: 210px;
+    width: 40%;
+    background: linear-gradient(+180deg, rgb(238, 179, 15), rgba(17, 17, 14, 0));/*yes you can use angle aswell for changing the direction. and it is the most easy way*/
+  }
