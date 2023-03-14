@@ -1,7 +1,9 @@
 body
 {
     /* background-color:rgb(127, 230, 230);  */
-    background-color:rgba(127, 230, 230,0.4);/*0 to 1 you can set 4th value. 1 in the sense 100%*/
+    /* background-color:rgba(127, 230, 230,0.4); */
+    /*0 to 1 you can set 4th value. 1 in the sense 100%*/
+    background:radial-gradient(rgb(120,1,10),rgba(122,40,20,0));
 }
 #cosmos_img_id
 {
@@ -10,7 +12,6 @@ body
 }/*it is the correct thing to do. It'll cover the whole web page int terms of width*/
 #early_cosmos_img_id
 {
-   /* background-size: cover; */
    height: 420px;
    border: solid chartreuse 4px;
 }
@@ -46,4 +47,14 @@ body
     height: 210px;
     width: 40%;
     background: linear-gradient(+180deg, rgb(238, 179, 15), rgba(17, 17, 14, 0));/*yes you can use angle aswell for changing the direction. and it is the most easy way*/
+  }
+  #gradient6{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(circle,black,blue,red,white);
+  }
+  #gradient7{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(red 20%,green 10%,white 40%,chocolate 20%);
   }
