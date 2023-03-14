@@ -21,10 +21,11 @@ h3{
 #runs_sr_id:hover
 {
     color: blueviolet;
+    border-style: groove;
 }
 .table_head_class
 {
-    color:blueviolet;
+    color:aqua;
 }/*classes can Override the Normal tags but not the ID's*/
 .table_head_class:hover 
 {
@@ -89,3 +90,28 @@ ul > li
     color:rgb(240, 236, 237);
 } */
 /* these are not working I guess and there is also ul+li{} it is also not working */
+#table_id{
+    border-radius: 1px;
+}
+table{
+    border-bottom: 2px solid;
+    border-color: azure;
+    border-top: 2px solid;
+    border-left: 2px dotted;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+
+    border-style:outset;
+}
+th{
+    color: ;
+   border-style:groove;
+}
+#th_gap_id{
+    border-style: none;
+}
+td{
+    color:rgb(219, 198, 218);
+    border-style:solid;
+}
+  
