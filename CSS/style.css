@@ -68,6 +68,13 @@ a:visited
 {
     color: red;
 }
+button{
+    background-color: crimson;
+    color: rgb(242, 248, 248);
+    border:solid rgb(173, 240, 173);
+    height: 30px;
+    width: 110px;
+}
 /*Example of ID overriding Classes*/
 #pid
 {
