@@ -75,15 +75,6 @@ button{
     height: 30px;
     width: 110px;
 }
-/*Example of ID overriding Classes*/
-#pid
-{
-    color: rgb(97, 136, 97);
-}
-.pclass
-{
-    color: bisque;
-}
 u:hover{
     color: rgb(225, 215, 225);
 }
