@@ -3,7 +3,9 @@ body
     /* background-color:rgb(127, 230, 230);  */
     /* background-color:rgba(127, 230, 230,0.4); */
     /*0 to 1 you can set 4th value. 1 in the sense 100%*/
-    background:radial-gradient(rgb(183, 54, 179),rgba(97, 115, 219, 0));
+    /* background:radial-gradient(rgb(183, 54, 179),rgba(97, 115, 219, 0)); */
+    background: linear-gradient(to left top, rgb(102,240,20), rgba(201,200,4,0));
+    /*diff b/w radial and linear is Radial for circle and Liniar for one side to other*/
 }
 #cosmos_img_id
 {
