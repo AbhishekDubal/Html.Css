@@ -4,6 +4,9 @@ body
     /* font-style: italic; */
     /* font-weight:bold; */
     font-size: 1.25em;/*like 1 into 1.25*/
+
+    margin: 0px;/*you can apply it only inside body*/
+ 
 }
 #second_p{
     text-transform: capitalize;/*like InitCap*/
@@ -38,6 +41,34 @@ body{
     background-image: url("/abd_for_css.webp");
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; 
+    background-size:cover;
+}
+#box{
+    color: ghostwhite;
+    border: 10px solid brown;
+    height: 300px;
+    width: 300px;
+    background-color: darkslategrey;
+    /* margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px; */
+    /*All the 4 can done by using margin */
+    margin: 50px;
+    padding-left: 10%;
+}
+#circle
+{
+    height: 250px;
+    width: 250px;
+    border-width: 2px;
+    border: 5px solid turquoise;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-image: url('/abd_for_css.webp');
+    background-position: center;
     background-size: cover;
 }
