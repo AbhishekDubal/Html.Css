@@ -1,5 +1,17 @@
 body
 {
     /* font-size: 2cm; */
-    
+    font-style: italic;
+    font-weight:bold;
+    font-size: 1.25em;/*like 1 into 1.25*/
+}
+#second_p{
+    text-transform: capitalize;/*like InitCap*/
+    text-transform: uppercase;
+    text-decoration: overline;/*line on text*/
+    text-align: justify;/*it'll adjust the texts and make proper sentence by clearing gaps*/
+}
+h3{
+     text-align: right; 
+  
 }
