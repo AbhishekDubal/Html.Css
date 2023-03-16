@@ -60,3 +60,11 @@ body
     width: 200px;
     background: radial-gradient(red 20%,green 10%,white 40%,chocolate 20%);
   }
+
+  a{
+    text-decoration:none;/*for removing the line*/
+    color: rgb(3, 3, 3);
+  }
+  a:hover{
+    color: rgb(106, 4, 4);
+  }
