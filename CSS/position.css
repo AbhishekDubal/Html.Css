@@ -38,4 +38,22 @@
     background-color: blueviolet;
     border-radius: 10%;
     position: absolute;
+    /* top: 0%; it'll move to top left corner*/
+}
+.box5{
+    height: 220px;
+    width: 240px;
+    background-color: rgb(46, 12, 12);
+    border-radius: 30%;
+    position: absolute;
+    top: 289px;
+    position: fixed;
+}
+.box6{
+    height: 150px;
+    width: 150px;
+    background-color: hotpink;
+    position: sticky;
+    top: 0px;
+    bottom: 100px;
 }
