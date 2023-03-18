@@ -6,5 +6,27 @@ a:visited{
     color: rgb(205, 221, 221);
 }
 a:hover{
-    color: green;
+    color: rgb(19, 128, 0);
+}
+a:active{
+    color: rgb(208, 15, 105);
+}
+
+button{
+    background-color: rgb(218, 100, 100);
+}
+button:hover{
+    background-color: green;
+}
+li:nth-child(2n)
+{
+    background-color: rgb(13, 111, 210);
+}
+li:nth-child(3n+1)
+{
+    color: chartreuse;
+}
+li:nth-child(odd)
+{
+    background-color: hotpink;
 }
