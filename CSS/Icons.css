@@ -1,0 +1,30 @@
+.fa-camera{
+    color: chartreuse;
+}
+.fa-youtube{
+    color: red;
+}
+.box{
+    color: rgb(12, 14, 9);
+    border: rgb(209, 69, 69) solid 4px;
+    height: 250px;
+    width: 250px;
+    background-color: brown;
+    font-size: 125px;
+    text-align: center;
+    
+    /* transform: translateX(45px);
+    transform: translateY(45px); */
+    transform: translate(45px,45px);
+
+    /* transform: rotate(55deg); */
+
+    /* transform: rotateX(101deg);
+    transform: rotateY(45deg);
+    transform: rotateZ(54deg); */
+
+    transform: scaleX(3);
+    transform: scaleY(2);
+    transform: scale(1);
+
+}
