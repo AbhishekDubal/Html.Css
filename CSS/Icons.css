@@ -34,10 +34,18 @@
     background: url('/abd_for_css.webp');
     background-size: cover;
 
-    animation:mySliding;
+/* animation:sliding;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-play-state: running; 
+    animation-direction: alternate-reverse;*/
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: sliding 6s ease 1s infinite normal forwards;    
 }
-@keyframes mySliding
+@keyframes sliding
 {
     from{margin-left: 0%;}
     to{margin-left: 100%;}
