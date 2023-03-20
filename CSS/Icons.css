@@ -28,5 +28,17 @@
     transform: scale(1);
 }
 .anime{
-    
+    border: purple solid 2px ;
+    height: 100px;
+    width: 150px;
+    background: url('/abd_for_css.webp');
+    background-size: cover;
+
+    animation:mySliding;
+    animation-duration: 4s;
+}
+@keyframes mySliding
+{
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
 }
